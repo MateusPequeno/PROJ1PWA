@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 //Importando os PrimeReact
 import 'primereact/resources/themes/saga-blue/theme.css';
@@ -15,7 +14,11 @@ function App() {
       
         <span className="p-float-label">
     <InputText id="in" />
-    <label htmlhtmlFor="in">Usuário</label>
+    <label htmlhtmlFor="in">User</label>
+</span>
+ <span className="p-float-label">
+    <InputText id="in" />
+    <label htmlhtmlFor="in">Senha</label>
 </span>
 
       <Button label="Login" />
